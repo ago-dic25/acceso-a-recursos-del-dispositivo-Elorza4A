@@ -1,0 +1,35 @@
+{
+  "expo": {
+    "name": "mi-primera-react-native-app",
+    "slug": "mi-primera-react-native-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "splash": {
+      "image": "./assets/splash-icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true,
+        "infoPlist": {
+        "NSCameraUsageDescription": "La app necesita acceso a la cámara para tomar fotos",
+        "NSPhotoLibraryAddUsageDescription": "La app necesita acceso a la galería para guardar fotos"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "permissions": ["CAMERA", "READ_EXTERNAL_STORAGE", "WRITE_EXTERNAL_STORAGE"],
+      "edgeToEdgeEnabled": true,
+      "package": "com.anonymous.miprimerareactnativeapp"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
